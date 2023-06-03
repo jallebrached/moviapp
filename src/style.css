@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.app {
+    background-color: #353b47;
+    min-height: 150vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+.MainBox {
+    margin-top: 60px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.MovieBox {
+    background: transparent;
+    display: flex;
+    width: 20%;
+    overflow: hidden;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px 4px rgba(233, 231, 231, 0.39);
+    -webkit-box-shadow: 0px 0px 50px 4px rgba(243, 235, 235, 0.39);
+    -moz-box-shadow: 0px 0px 50px 4px rgba(235, 232, 232, 0.39);
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+
+}
+
+.MovieBox img {
+    height: 90%;
+    transition: all .2s ease-in-out;
+
+}
+
+.MovieBox img:hover {
+    transform: scale(1.1);
+}
+
+.MovieBox:hover {
+    transform: scale(1.1);
+
+}
+
+p {
+    font-size: small;
+    padding: 0px 15px;
+}
+
+.stars {
+    display: flex;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.player {
+    margin-top: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.postercontainer{
+width: 290px;
+height: 370px;
+}
+
+
+/* .miniplayer {
+    transition: all .2s ease-in-out;
+}
+
+.miniplayer:hover {
+    transform: scale(1.1);
+} */
